@@ -1,4 +1,10 @@
 [中文版](README.zh.md)
+n<div align="center">
+
+<img src=".banner.svg" width="100%" alt="banner">
+
+</div>
+
 
 # 🎬 Awesome Video Creation
 
