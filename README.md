@@ -14,7 +14,7 @@ A curated collection of AI-powered skills for the complete video creation workfl
 
 ## Overview
 
-Creating great videos involves much more than just hitting record. This repository provides **14 battle-tested skills** organized into **5 categories** that cover every stage of the video creation process.
+Creating great videos involves much more than just hitting record. This repository provides **14 tried-and-true skills** organized into **5 categories** that cover every stage of the video creation process.
 
 Whether you're a solo creator, a small team, or part of a larger organization, these skills will help you:
 
