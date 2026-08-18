@@ -54,7 +54,7 @@ TITLE FORMULAS:
 3. **I [Did Thing] for [Time] - Here's What Happened** - Story
 4. **[Topic]: [Bold Claim]** - Educational
 5. **Don't [Common Mistake] Until You Watch This** - Warning
-6. **[Topic] in [Year]: The Complete Guide** - Comprehensive
+6. **[Topic] in [Year]: The Complete Guide** - Complete
 
 TITLE RULES:
 - [ ] Under 60 characters (no truncation)
@@ -76,7 +76,7 @@ Write an SEO-optimized description:
 STRUCTURE (5000 characters max, first 150 most important):
 
 LINE 1-2: Hook with primary keyword
-"Learn how to [topic] in this comprehensive guide. [Primary keyword] is essential for..."
+"Learn how to [topic] in this complete guide. [Primary keyword] is essential for..."
 
 LINE 3-5: What the video covers
 "In this video, you'll learn:

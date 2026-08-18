@@ -54,7 +54,7 @@ For each step, specify:
 - Speed adjustments (normal / slow / 2x speed)
 ```
 
-### Step 3: Recording Best Practices
+### Step 3: Recording Proven Patterns
 
 ```markdown
 Recording checklist:

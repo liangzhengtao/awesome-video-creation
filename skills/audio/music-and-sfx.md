@@ -121,7 +121,7 @@ Reference: [similar song/artist]"
 
 POST-GENERATION:
 - [ ] Check for AI artifacts (weird sounds)
-- [ ] Ensure seamless loop if needed
+- [ ] Ensure smooth loop if needed
 - [ ] Verify commercial use rights
 - [ ] Match loudness to your mix (-18dB to -24dB bed)
 ```

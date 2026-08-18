@@ -4,7 +4,7 @@
 
 [English](#overview) | [中文](#中文版本)
 
-A curated collection of AI-powered skills for the complete video creation workflow — from creative planning to multi-platform publishing. Each skill is a comprehensive guide with workflows, tools, templates, and best practices.
+A curated collection of AI-powered skills for the complete video creation workflow — from creative planning to multi-platform publishing. Each skill is a complete guide with workflows, tools, templates, and proven patterns.
 
 ## Overview
 

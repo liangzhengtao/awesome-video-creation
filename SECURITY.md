@@ -42,7 +42,7 @@ Please include the following in your report:
 4. **Disclosure**: We'll coordinate disclosure with you
 5. **Credit**: We'll credit you in the security advisory (unless you prefer anonymity)
 
-## Security Best Practices for Users
+## Security Proven Patterns for Users
 
 When using this repository:
 
