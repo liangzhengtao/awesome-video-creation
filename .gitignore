@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary
+tmp/
+temp/
+.tmp/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Video/Audio working files
+*.mp4
+*.mov
+*.avi
+*.wav
+*.flac
+*.psd
+*.ai

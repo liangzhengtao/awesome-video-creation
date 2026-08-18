@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check Markdown files
+        uses: DavidAnson/markdownlint-cli2-action@v18
+        with:
+          globs: |
+            **/*.md
+            !node_modules/**
+          config: .markdownlint.json
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v1.9.0
+        with:
+          args: --verbose --no-progress './**/*.md' --exclude-mail --exclude 'linkedin.com'
+          fail: false
+
+      - name: Verify file structure
+        run: |
+          echo "Checking skill files..."
+          for category in creative-planning filming post-production audio publishing; do
+            if [ ! -d "skills/$category" ]; then
+              echo "ERROR: Missing category directory: skills/$category"
+              exit 1
+            fi
+          done
+          echo "All category directories exist."
+
+          echo "Checking skill file count..."
+          count=$(find skills -name "*.md" | wc -l)
+          if [ "$count" -lt 14 ]; then
+            echo "ERROR: Expected at least 14 skill files, found $count"
+            exit 1
+          fi
+          echo "Found $count skill files. ✓"
+
+      - name: Check README badges
+        run: |
+          if grep -q "Awesome" README.md; then
+            echo "README contains project title. ✓"
+          else
+            echo "WARNING: README may be missing project title"
+          fi
